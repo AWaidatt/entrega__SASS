@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #edfc43;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 12vh;
+}
+
+header nav a {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.content__1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50vh 50vh;
+      grid-template-rows: 50vh 50vh;
+}
+
+.content__1 a {
+  font-size: 30px;
+  color: white;
+}
+
+body {
+  background-color: #7d077d;
+}
+/*# sourceMappingURL=estilos.css.map */

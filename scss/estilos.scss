@@ -1,0 +1,46 @@
+$color-1: rgb(125, 7, 125);
+
+$color-2:  rgb(237, 252, 67);
+
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: $color-2;
+    height: 12vh;
+    display: flex;
+    nav {
+        justify-content: space-between;
+        height: 12vh;
+        
+    
+        a{
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+        }
+    }   
+}
+
+
+.content__1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50vh 50vh;
+
+    a{
+        font-size: 30px;
+        color: white;
+
+
+    }
+}
+
+body{
+    background-color: $color-1;
+
+}
+
+
